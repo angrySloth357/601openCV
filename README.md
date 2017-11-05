@@ -2,8 +2,11 @@
 
 ## Compile & Run Instructions:
 1. Run **make** for compiling all .cpp files
-2. Run **./<objSource>** for running each file
+
+2. Run **./objSource** for running each file
+
 3. Run **make clean** for removing all object files
+
 
 Corresponding binaries are:
 
@@ -19,11 +22,15 @@ Each cvMat consists of planes of pixel values for Red, Green and Blue input chan
 
 ## Exercise 2
 
-1. **./colorimg <imageSource>**: Output shows that each colorspace output: Red, Blue, Green, etc. is only a grayscale pixel value and have to be combined together if you need actual colors. 
+### Part 1
+**./colorimg imageSource**: Output shows that each colorspace output: Red, Blue, Green, etc. is only a grayscale pixel value and have to be combined together if you need actual colors. 
 
-For python: **python ColorImage.py <ImgSource>**
+For python: **python ColorImage.py imageSource**
 
-2. Values for: **python ColorImage.py Test_images/baboon.jpg** 
+### Part 2
+
+Values for: **python ColorImage.py Test_images/baboon.jpg** 
+
 Blue(20,25):  102
 
 Blue min:  0
