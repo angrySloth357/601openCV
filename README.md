@@ -25,7 +25,9 @@ Each cvMat consists of planes of pixel values for Red, Green and Blue input chan
 ### Part 1
 **./colorimg imageSource**: Output shows that each colorspace output: Red, Blue, Green, etc. is only a grayscale pixel value and have to be combined together if you need actual colors. 
 
-For python: **python ColorImage.py imageSource**
+**python ColorImage.py Test_images/baboon.jpg**
+
+| ![blue](Blue.png) | 
 
 ### Part 2
 
