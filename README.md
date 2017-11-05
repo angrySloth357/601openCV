@@ -29,15 +29,15 @@ Each cvMat consists of planes of pixel values for Red, Green and Blue input chan
 
 | Blue 				| Green 			  	| Red 				|
 |:-----------------:|:---------------------:|:-----------------:|
-| ![blue](Blue.png) | ![green](Green.png) 	| ![red](Red.png) 	|
+| ![blue](/Run_Images/Blue.png) | ![green](/Run_Images/Green.png) 	| ![red](/Run_Images/Red.png) 	|
 
 | Y 				| Cb 			  		| Cr 				|
 |:-----------------:|:---------------------:|:-----------------:|
-| ![y](Y.png) 		| ![cb](Cb.png) 		| ![cr](Cr.png) 	|
+| ![y](/Run_Images/Y.png) 		| ![cb](/Run_Images/Cb.png) 		| ![cr](/Run_Images/Cr.png) 	|
 
 | Hue 				| Saturation 			| Value 			|
 |:-----------------:|:---------------------:|:-----------------:|
-| ![hue](Hue.png) | ![sat](Saturation.png)  | ![val](Value.png) |
+| ![hue](/Run_Images/Hue.png) | ![sat](/Run_Images/Saturation.png)  | ![val](/Run_Images/Value.png) |
 
 ### Part 2
 
