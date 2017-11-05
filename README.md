@@ -43,59 +43,19 @@ Each cvMat consists of planes of pixel values for Red, Green and Blue input chan
 
 Values for: **python ColorImage.py Test_images/baboon.jpg** 
 
-Blue(20,25):  102
+| ColorSpace 	| (20,25) 	| min 	| max 	|
+|:-------------:|:---------:|:-----:|:-----:|
+| Blue 			| 102 		| 0 	| 255	|
+| Green 		| 165 		| 0		| 234	|
+| Red 			| 156		| 0		| 255   |
+| Y 			| 155		| 1 	| 224	|
+| Cb 			| 129 		| 70 	| 230	|
+| Cr 			| 98 		| 35 	| 185	|
+| Hue 			| 34 		| 0 	| 179	|
+| Saturation 	| 97 		| 0 	| 255	|
+| Value 		| 165		| 4 	| 255	|
 
-Blue min:  0
-
-Blue max:  255
-
-Green(20,25):  165
-
-Green min:  0
-
-Green max:  234
-
-Red(20,25):  156
-
-Red min:  0
-
-Red max:  255
-
-Y(20,25):  155
-
-Y min:  1
-
-Y max:  224
-
-Cb(20,25):  129
-
-Cb min:  70
-
-Cb max:  230
-
-Cr(20,25):  98
-
-Cr min:  35
-
-Cr max:  185
-
-Hue(20,25):  34
-
-Hue min:  0
-
-Hue max:  179
-
-Saturation(20,25):  97
-
-Saturation min:  0
-
-Saturation max:  255
-
-Value(20,25):  165
-
-Value min:  4
-
-Value max:  255
+## Exercise 3
 
 
 
