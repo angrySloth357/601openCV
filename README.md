@@ -31,6 +31,14 @@ Each cvMat consists of planes of pixel values for Red, Green and Blue input chan
 |:-----------------:|:---------------------:|:-----------------:|
 | ![blue](Blue.png) | ![green](Green.png) 	| ![red](Red.png) 	|
 
+| Y 				| Cb 			  		| Cr 				|
+|:-----------------:|:---------------------:|:-----------------:|
+| ![y](Y.png) 		| ![cb](Cb.png) 		| ![cr](Cr.png) 	|
+
+| Hue 				| Saturation 			| Value 			|
+|:-----------------:|:---------------------:|:-----------------:|
+| ![hue](Hue.png) | ![sat](Saturation.png)  | ![val](Value.png) |
+
 ### Part 2
 
 Values for: **python ColorImage.py Test_images/baboon.jpg** 
