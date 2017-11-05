@@ -1,4 +1,4 @@
-\*.o
-\color*
-\noise*
-\threshold*
+/*.o
+/color*
+/noise*
+/threshold*
