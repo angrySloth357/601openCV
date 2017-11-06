@@ -57,5 +57,23 @@ Values for: **python ColorImage.py Test_images/baboon.jpg**
 
 ## Exercise 3
 
+### Part 1
+
+Mean squared deviation from the original image based on various Gaussian and Salt and Pepper noise addition is given below:
+
+| Model 	| Mean 	| Sigma	| Mean Squared Error|
+|:---------:|:-----:|:-----:|:-----------------:|
+| Gaussian 	| 0 	| 0 	| 0.000000 			|
+| Gaussian 	| 5 	| 20 	| 54.798973 		|
+| Gaussian  | 10 	| 50 	| 61.844326 		|
+| Gaussian  | 20 	| 100 	| 61.447723 		|
+
+| Model 		| pa 	| pb 	| Mean Squared Error|
+|:-------------:|:-----:|:-----:|:-----------------:|
+| Salt & Pepper | 0.01 	| 0.01 	| 2.052879 			|
+| Salt & Pepper | 0.02 	| 0.02 	| 4.013709 			|
+| Salt & Pepper | 0.03 	| 0.03 	| 5.801343 			|
+| Salt & Pepper | 0.04 	| 0.04 	| 7.738173 			|
+
 
 

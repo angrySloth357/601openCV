@@ -17,7 +17,7 @@ int main(int argc, char** argv )
     image = imread(argv[1], 0);
     namedWindow( "Original image", CV_WINDOW_AUTOSIZE );
     imshow( "Original image", image);
-
+    waitKey( 0 );
     Mat noise_img = image.clone(); 
     float mean = 0;			
     float sigma = 50;		//Not the variance
