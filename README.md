@@ -76,4 +76,40 @@ Mean squared deviation from the original image based on various Gaussian and Sal
 | Salt & Pepper | 0.04 	| 0.04 	| 7.738173 			|
 
 
+### Part 2
+
+Mean squared deviation from the original image based on various noise addtion and filtering mechanism is given below:
+
+**For Gaussian noise with mean=0, sigma=50**
+
+| Filter 			| Kernel	| Mean Squared Error	|
+|:-----------------:|:---------:|:---------------------:|
+| Box Filter 		| (3, 3) 	| 70.988484 			|
+| Gaussian Filter 	| (3, 3) 	| 69.625936 			|
+| Median Filter 	| (3, 3) 	| 64.128119 			|
+| Box Filter 		| (5, 5) 	| 78.017225 			|
+| Gaussian Filter 	| (5, 5) 	| 76.464632 			|
+| Median Filter 	| (5, 5) 	| 63.686953 			|
+| Box Filter 		| (7, 7) 	| 80.924800 			|
+| Gaussian Filter 	| (7, 7) 	| 73.235832 			|
+| Median Filter 	| (7, 7) 	| 63.640454 			|
+
+Median Filter seems to perform the best for Gaussian noise. Smaller kernel gives lower error.
+
+**For Salt & Pepper noise with pa=0.01, pb=0.01**
+
+| Filter 			| Kernel	 | Mean Squared Error	|
+|:-----------------:|:----------:|:--------------------:|
+| Box Filter 		| (3, 3) 	 | 71.370607 			|
+| Gaussian Filter 	| (3, 3) 	 | 69.663289 			|
+| Median Filter 	| (3, 3) 	 | 56.583368 			|
+| Box Filter 		| (5, 5) 	 | 77.364820 			|
+| Gaussian Filter 	| (5, 5) 	 | 74.038914 			|
+| Median Filter 	| (5, 5) 	 | 56.578864 			|
+| Box Filter 		| (7, 7) 	 | 80.537738 			|
+| Gaussian Filter 	| (7, 7) 	 | 79.036938 			|
+| Median Filter 	| (7, 7) 	 | 56.754785 			|
+
+Once again Median Filter seems to perform the best for Salt and Pepper noise as well. Smaller kernel gives lower error.
+
 
