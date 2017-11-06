@@ -112,4 +112,16 @@ Median Filter seems to perform the best for Gaussian noise. Smaller kernel gives
 
 Once again Median Filter seems to perform the best for Salt and Pepper noise as well. Smaller kernel gives lower error.
 
+## Exercise 4
 
+### Part 1
+
+**python ColorImage.py Test_images/baboon.jpg**
+
+| Original 			| Threshold 			| Binary Threshold 	|
+|:-----------------:|:---------------------:|:-----------------:|
+| ![blue](/Test_images/baboon.jpg ) | ![green](/Run_Images/th.png) 	| ![red](/Run_Images/bin_th.png) 	|
+
+| Band Threshold 	| Semi Threshold 		| Adaptive Threshold |
+|:-----------------:|:---------------------:|:------------------:|
+| ![y](/Run_Images/band_th.png) | ![cb](/Run_Images/semi_th.png) | ![cr](/Run_Images/adap_th.png) |
