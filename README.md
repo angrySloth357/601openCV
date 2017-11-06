@@ -82,7 +82,7 @@ Mean squared deviation from the original image based on various Gaussian and Sal
 
 Mean squared deviation from the original image based on various noise addtion and filtering mechanism is given below:
 
-**For Gaussian noise with mean=0, sigma=50**
+**For Gaussian noise with mean=0, sigma=10**
 
 | Filter 			| Kernel	| Mean Squared Error	|
 |:-----------------:|:---------:|:---------------------:|
