@@ -18,11 +18,12 @@ Threshold.cpp ---> threshold
 
 ## Exercise 1
 
-Each cvMat consists of planes (2D matrix) of pixel values difference colorSpaces like BGR, YCbCr, HSV, etc. Pixel values correspods to brighness where 0 pixel value is the darkest [black] and 255 pixel value is the lightest [white]. 
+Each cvMat consists of planes (2D matrix) of pixel values of different colorSpaces like BGR, YCbCr, HSV, etc. Pixel values correspods to brighness where 0 pixel value is the darkest [black] and 255 pixel value is the lightest [white]. 
 
 ## Exercise 2
 
 ### Part 1
+
 **./colorimg imageSource**: Output shows that each colorspace output: Red, Blue, Green, etc. is only a grayscale pixel value and have to be combined together if you need actual colors. 
 
 **python ColorImage.py Test_images/baboon.jpg**
@@ -41,7 +42,7 @@ Each cvMat consists of planes (2D matrix) of pixel values difference colorSpaces
 
 ### Part 2
 
-Values for: **python ColorImage.py Test_images/baboon.jpg** 
+Pixel values for: **python ColorImage.py Test_images/baboon.jpg** 
 
 | ColorSpace 	| (20,25) 	| min 	| max 	|
 |:-------------:|:---------:|:-----:|:-----:|
@@ -54,6 +55,7 @@ Values for: **python ColorImage.py Test_images/baboon.jpg**
 | Hue 			| 34 		| 0 	| 179	|
 | Saturation 	| 97 		| 0 	| 255	|
 | Value 		| 165		| 4 	| 255	|
+
 
 ## Exercise 3
 
