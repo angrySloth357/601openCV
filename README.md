@@ -18,7 +18,7 @@ Threshold.cpp ---> threshold
 
 ## Exercise 1
 
-Each cvMat consists of planes of pixel values for Red, Green and Blue input channels. cvMat[0] consits of all the pixels corresponding to Red channel, cvMat[1] for Green channel and cvMat[2] for Blue channel.
+Each cvMat consists of planes (2D matrix) of pixel values difference colorSpaces like BGR, YCbCr, HSV, etc. Pixel values correspods to brighness where 0 pixel value is the darkest [black] and 255 pixel value is the lightest [white]. 
 
 ## Exercise 2
 
@@ -116,7 +116,7 @@ Once again Median Filter seems to perform the best for Salt and Pepper noise as 
 
 ### Part 1
 
-**python ColorImage.py Test_images/baboon.jpg**
+**python Threshold.py Test_images/baboon.jpg**
 
 | Original 			| Threshold 			| Binary Threshold 	|
 |:-----------------:|:---------------------:|:-----------------:|
@@ -125,3 +125,14 @@ Once again Median Filter seems to perform the best for Salt and Pepper noise as 
 | Band Threshold 	| Semi Threshold 		| Adaptive Threshold |
 |:-----------------:|:---------------------:|:------------------:|
 | ![y](/Run_Images/band_th.png) | ![cb](/Run_Images/semi_th.png) | ![cr](/Run_Images/adap_th.png) |
+
+Adaptive Thresholding seems to give the most accurate representation of the original image :)
+
+### Part 2
+
+Binary Thresholding looks like the runner up for the most accurate representation of the accurate image. However, unlike adaptive thresholding it cannot capture subtle changes in pixel values near the eye region of the sample image.
+
+
+### Part 3
+
+Adaptive Thresholding is useful where there are only slight variation of pixel values for some regions which an ordinary thresholding algorithm cannot capture.
